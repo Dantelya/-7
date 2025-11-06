@@ -1,0 +1,87 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int Day;
+	int number;
+	cout << "Месяц года:" << endl << "[1] Январь" << endl << "[2] Февраль" << endl << "[3] Март" << endl << "[4] Апрель" << endl << "[5] Май" << endl << "[6] Июнь" << endl;
+	cout << "[7] Июль" << endl << "[8] Август" << endl << "[9] Сентябрь" << endl << "[10] Октябрь" << endl << "[11] Ноябрь" << endl << "[12] Декабрь" << endl;
+
+	cin >> number;
+
+	switch (number) {
+	case 1: cout << "Выбран месяц: Январь" << endl;
+		break;
+	case 2: cout << "Выбран месяц: Февраль" << endl;
+		break;
+	case 3: cout << "Выбран месяц: Март" << endl;
+		break;
+	case 4: cout << "Выбран месяц: Апрель" << endl;
+		break;
+	case 5: cout << "Выбран месяц: Май" << endl;
+		break;
+	case 6: cout << "Выбран месяц: Июнь" << endl;
+		break;
+	case 7: cout << "Выбран месяц: Июль" << endl;
+		break;
+	case 8: cout << "Выбран месяц: Август" << endl;
+		break;
+	case 9: cout << "Выбран месяц: Сентябрь" << endl;
+		break;
+	case 10: cout << "Выбран месяц: Октябрь" << endl;
+		break;
+	case 11: cout << "Выбран месяц: Ноябррь" << endl;
+		break;
+	case 12: cout << "Выбран месяц: Декабрь" << endl;
+		break;
+	default: cout << "Неверный номер месяца!" << endl;
+	}
+
+
+	cout << "Введите день месяца:" << endl;
+	cin >> Day;
+
+	if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Января";
+
+	else if (number == 1) and (Day <= 28) {
+		cout << "Календарь: " << Day << "Февраля";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Марта";
+	}
+	else if (number == 1) and (Day <= 30) {
+		cout << "Календарь: " << Day << "Апреля";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Мая";
+	}
+	else if (number == 1) and (Day <= 30) {
+		cout << "Календарь: " << Day << "Июня";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Июля";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Августа";
+	}
+	else if (number == 1) and (Day <= 30) {
+		cout << "Календарь: " << Day << "Сентября";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Октября";
+	}
+	else if (number == 1) and (Day <= 30) {
+		cout << "Календарь: " << Day << "Ноября";
+	}
+	else if (number == 1) and (Day <= 31) {
+		cout << "Календарь: " << Day << "Декабря";
+	}
+	else {
+		cout << "Неверный день месяца";
+	}
+	}
+
+	return 0;
+}
