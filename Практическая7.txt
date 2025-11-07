@@ -45,37 +45,37 @@ int main() {
 	if (number == 1) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Января";
 
-	else if (number == 1) and (Day <= 28) {
+	else if (number == 2) and (Day <= 28) {
 		cout << "Календарь: " << Day << "Февраля";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 3) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Марта";
 	}
-	else if (number == 1) and (Day <= 30) {
+	else if (number == 4) and (Day <= 30) {
 		cout << "Календарь: " << Day << "Апреля";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 5) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Мая";
 	}
-	else if (number == 1) and (Day <= 30) {
+	else if (number == 6) and (Day <= 30) {
 		cout << "Календарь: " << Day << "Июня";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 7) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Июля";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 8) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Августа";
 	}
-	else if (number == 1) and (Day <= 30) {
+	else if (number == 9) and (Day <= 30) {
 		cout << "Календарь: " << Day << "Сентября";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 10) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Октября";
 	}
-	else if (number == 1) and (Day <= 30) {
+	else if (number == 11) and (Day <= 30) {
 		cout << "Календарь: " << Day << "Ноября";
 	}
-	else if (number == 1) and (Day <= 31) {
+	else if (number == 12) and (Day <= 31) {
 		cout << "Календарь: " << Day << "Декабря";
 	}
 	else {
@@ -85,3 +85,4 @@ int main() {
 
 	return 0;
 }
+
